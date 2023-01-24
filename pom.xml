@@ -2,12 +2,12 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.lukaszbudnik</groupId>
-    <artifactId>keycloak-ip-authenticator</artifactId>
+    <groupId>com.xendworks.iam.studentidauthenticator</groupId>
+    <artifactId>student-id-authenticator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
-        <keycloak.version>12.0.4</keycloak.version>
+        <keycloak.version>20.0.3</keycloak.version>
         <jboss-jaxrs-api_2.1_spec>2.0.1.Final</jboss-jaxrs-api_2.1_spec>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>

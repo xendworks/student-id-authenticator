@@ -1,1 +1,1 @@
-com.github.lukaszbudnik.keycloak.ipauthenticator.IPAuthenticatorFactory
+com.xendworks.iam.studentidauthenticator.StudentIdAuthenticatorFactory
