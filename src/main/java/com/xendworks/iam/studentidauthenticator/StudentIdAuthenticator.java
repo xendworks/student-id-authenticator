@@ -4,14 +4,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import org.jboss.logging.Logger;
-import javax.ws.rs.core.MultivaluedMap;
+import jakarta.ws.rs.core.MultivaluedMap;
 import org.keycloak.authentication.AuthenticationFlowContext;
 import org.keycloak.authentication.Authenticator;
 import org.keycloak.authentication.authenticators.browser.UsernamePasswordForm;
 import org.keycloak.models.*;
 import org.keycloak.services.managers.AuthenticationManager;
 import org.keycloak.events.Errors;
-import javax.ws.rs.core.Response;
+import jakarta.ws.rs.core.Response;
 import org.keycloak.services.messages.Messages;
 import org.keycloak.authentication.AuthenticationFlowError;
 import org.keycloak.authentication.authenticators.browser.AbstractUsernameFormAuthenticator;
